@@ -2,7 +2,7 @@
 #    uv pip compile pyproject.toml --all-extras -o requirements.txt
 annotated-types==0.7.0
     # via pydantic
-anyio==4.6.0
+anyio==4.7.0
     # via httpx
 asgiref==3.8.1
     # via
@@ -11,11 +11,11 @@ asgiref==3.8.1
     #   django
     #   django-signal-webhooks
     #   django-stubs
-asttokens==2.4.1
+asttokens==3.0.0
     # via stack-data
 atomicwrites==1.4.1
     # via archivebox (pyproject.toml)
-attrs==24.2.0
+attrs==24.3.0
     # via
     #   service-identity
     #   twisted
@@ -29,13 +29,13 @@ beautifulsoup4==4.12.3
     # via python-benedict
 brotli==1.1.0
     # via yt-dlp
-bx-django-utils==79
+bx-django-utils==84
     # via django-huey-monitor
-bx-py-utils==104
+bx-py-utils==106
     # via
     #   bx-django-utils
     #   django-huey-monitor
-certifi==2024.8.30
+certifi==2024.12.14
     # via
     #   httpcore
     #   httpx
@@ -43,15 +43,15 @@ certifi==2024.8.30
     #   yt-dlp
 cffi==1.17.1
     # via cryptography
-channels==4.1.0
+channels==4.2.0
     # via archivebox (pyproject.toml)
-charset-normalizer==3.4.0
+charset-normalizer==3.4.1
     # via requests
 constantly==23.10.4
     # via twisted
-croniter==3.0.3
+croniter==6.0.0
     # via archivebox (pyproject.toml)
-cryptography==43.0.1
+cryptography==44.0.0
     # via
     #   autobahn
     #   django-signal-webhooks
@@ -63,7 +63,7 @@ dateparser==1.2.0
     # via archivebox (pyproject.toml)
 decorator==5.1.1
     # via ipython
-django==5.1.2
+django==5.1.4
     # via
     #   archivebox (pyproject.toml)
     #   bx-django-utils
@@ -81,9 +81,9 @@ django==5.1.2
     #   django-stubs
     #   django-stubs-ext
     #   django-taggit
-django-admin-data-views==0.4.1
+django-admin-data-views==0.4.3
     # via archivebox (pyproject.toml)
-django-auth-ldap==5.0.0
+django-auth-ldap==5.1.0
     # via archivebox (pyproject.toml)
 django-charid-field==0.4
     # via archivebox (pyproject.toml)
@@ -99,33 +99,33 @@ django-ninja==1.3.0
     # via archivebox (pyproject.toml)
 django-object-actions==4.3.0
     # via archivebox (pyproject.toml)
-django-pydantic-field==0.3.10
+django-pydantic-field==0.3.11
     # via archivebox (pyproject.toml)
-django-settings-holder==0.1.2
+django-settings-holder==0.2.2
     # via
     #   django-admin-data-views
     #   django-signal-webhooks
-django-signal-webhooks==0.3.0
+django-signal-webhooks==0.3.1
     # via archivebox (pyproject.toml)
-django-stubs==5.1.0
+django-stubs==5.1.1
     # via archivebox (pyproject.toml)
-django-stubs-ext==5.1.0
+django-stubs-ext==5.1.1
     # via django-stubs
-django-taggit==1.3.0
+django-taggit==6.1.0
     # via archivebox (pyproject.toml)
-et-xmlfile==1.1.0
+et-xmlfile==2.0.0
     # via openpyxl
 executing==2.1.0
     # via stack-data
 feedparser==6.0.11
     # via archivebox (pyproject.toml)
-ftfy==6.3.0
+ftfy==6.3.1
     # via python-benedict
 h11==0.14.0
     # via httpcore
-httpcore==1.0.6
+httpcore==1.0.7
     # via httpx
-httpx==0.27.2
+httpx==0.28.1
     # via django-signal-webhooks
 huey==2.5.2
     # via
@@ -144,11 +144,11 @@ idna==3.10
     #   twisted
 incremental==24.7.2
     # via twisted
-ipython==8.28.0
+ipython==8.31.0
     # via archivebox (pyproject.toml)
-jedi==0.19.1
+jedi==0.19.2
     # via ipython
-mailchecker==6.0.11
+mailchecker==6.0.14
     # via python-benedict
 markdown-it-py==3.0.0
     # via rich
@@ -166,7 +166,7 @@ parso==0.8.4
     # via jedi
 pexpect==4.9.0
     # via ipython
-phonenumbers==8.13.47
+phonenumbers==8.13.52
     # via python-benedict
 platformdirs==4.3.6
     # via pydantic-pkgr
@@ -174,13 +174,13 @@ pluggy==1.5.0
     # via archivebox (pyproject.toml)
 prompt-toolkit==3.0.48
     # via ipython
-psutil==6.0.0
+psutil==6.1.1
     # via archivebox (pyproject.toml)
 ptyprocess==0.7.0
     # via pexpect
 pure-eval==0.2.3
     # via stack-data
-py-machineid==0.6.0
+py-machineid==0.7.0
     # via archivebox (pyproject.toml)
 pyasn1==0.6.1
     # via
@@ -195,27 +195,27 @@ pycparser==2.22
     # via cffi
 pycryptodomex==3.21.0
     # via yt-dlp
-pydantic==2.9.2
+pydantic==2.10.4
     # via
     #   django-ninja
     #   django-pydantic-field
     #   pydantic-pkgr
     #   pydantic-settings
-pydantic-core==2.23.4
+pydantic-core==2.27.2
     # via
     #   pydantic
     #   pydantic-pkgr
-pydantic-pkgr==0.5.3
+pydantic-pkgr==0.5.4
     # via archivebox (pyproject.toml)
-pydantic-settings==2.5.2
+pydantic-settings==2.7.1
     # via archivebox (pyproject.toml)
 pygments==2.18.0
     # via
     #   ipython
     #   rich
-pyopenssl==24.2.1
+pyopenssl==24.3.0
     # via twisted
-python-benedict==0.33.2
+python-benedict==0.34.0
     # via archivebox (pyproject.toml)
 python-crontab==3.2.0
     # via archivebox (pyproject.toml)
@@ -243,22 +243,22 @@ pytz==2024.2
     #   dateparser
 pyyaml==6.0.2
     # via python-benedict
-regex==2024.9.11
+regex==2024.11.6
     # via dateparser
 requests==2.32.3
     # via
     #   archivebox (pyproject.toml)
     #   python-benedict
     #   yt-dlp
-rich==13.9.2
+rich==13.9.4
     # via
     #   archivebox (pyproject.toml)
     #   rich-argparse
-rich-argparse==1.5.2
+rich-argparse==1.6.0
     # via archivebox (pyproject.toml)
-service-identity==24.1.0
+service-identity==24.2.0
     # via twisted
-setuptools==75.1.0
+setuptools==75.6.0
     # via
     #   archivebox (pyproject.toml)
     #   autobahn
@@ -267,7 +267,7 @@ setuptools==75.1.0
     #   zope-interface
 sgmllib3k==1.0.0
     # via feedparser
-six==1.16.0
+six==1.17.0
     # via
     #   asttokens
     #   python-dateutil
@@ -279,7 +279,7 @@ sonic-client==1.0.0
     # via archivebox (pyproject.toml)
 soupsieve==2.6
     # via beautifulsoup4
-sqlparse==0.5.1
+sqlparse==0.5.3
     # via django
 stack-data==0.6.3
     # via ipython
@@ -293,13 +293,13 @@ traitlets==5.14.3
     # via
     #   ipython
     #   matplotlib-inline
-twisted==24.7.0
+twisted==24.11.0
     # via daphne
 txaio==23.1.1
     # via autobahn
 typeid-python==0.3.1
     # via archivebox (pyproject.toml)
-types-pyyaml==6.0.12.20240917
+types-pyyaml==6.0.12.20241230
     # via django-stubs
 typing-extensions==4.12.2
     # via
@@ -314,7 +314,7 @@ tzlocal==5.2
     # via dateparser
 ulid-py==1.1.0
     # via archivebox (pyproject.toml)
-urllib3==2.2.3
+urllib3==2.3.0
     # via
     #   requests
     #   yt-dlp
@@ -326,13 +326,13 @@ wcwidth==0.2.13
     # via
     #   ftfy
     #   prompt-toolkit
-websockets==13.1
+websockets==14.1
     # via yt-dlp
 xlrd==2.0.1
     # via python-benedict
-xmltodict==0.14.1
+xmltodict==0.14.2
     # via python-benedict
-yt-dlp==2024.10.7
+yt-dlp==2024.12.23
     # via archivebox (pyproject.toml)
-zope-interface==7.1.0
+zope-interface==7.2
     # via twisted
